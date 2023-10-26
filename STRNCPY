@@ -1,6 +1,6 @@
 
 
-include <iostream>
+#include <iostream>
 
 char* my_strncpy(char* dest, const char* src, size_t n) {
     char* originalDest = dest; 
