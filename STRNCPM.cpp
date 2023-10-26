@@ -1,4 +1,4 @@
-Стрнкпм
+
 
 #include <iostream>
 
