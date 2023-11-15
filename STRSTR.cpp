@@ -19,17 +19,3 @@ const char* my_strstr(const char* haystack, const char* needle) {
     return nullptr;
 }
 
-int main() {
-    const char* haystack = "This is a sample text.";
-    const char* needle = "sample";
-
-    const char* result = my_strstr(haystack, needle);
-
-    if (result) {
-        std::cout << "Substring found at index: " << (result - haystack) << std::endl;
-    } else {
-        std::cout << "Substring not found." << std::endl;
-    }
-
-    return 0;
-}
